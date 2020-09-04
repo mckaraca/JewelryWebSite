@@ -15,10 +15,10 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 // 	},
 //   }))(Badge);
   function shoot() {
-	alert("Sepete Eklediniz...");
+	alert("Added to cart...");
   }
   const myelement = (
-	<button onClick={shoot}>SEPETE EKLE</button>
+	<button onClick={shoot}>ADD TO CART</button>
   );
 
 const Necklaces = (props) => {
@@ -78,7 +78,7 @@ const Necklaces = (props) => {
 					</StyledBadge>
 					</IconButton></div> */}
           <div className='Al'><NavLink to="/uyelik" className="den">
-                <button className='btn red'>SİPARİŞİ TAMAMLA</button>
+                <button className='btn red'>COMPLETE THE ORDER</button>
                 </NavLink></div>
 				
 			</div>
