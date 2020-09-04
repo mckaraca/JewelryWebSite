@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import './Rings.css';
 
 function shoot() {
-	alert("ÖDEME BAŞARIYLA YAPILDI");
+	alert("PAYMENT MADE SUCCESSFULLY");
   }
-  const myelement = (
-	<button onClick={shoot}>ÖDEME BAŞARIYLA YAPILDI</button>
-  );
+
 
 class deneme extends Component {
     render() {
