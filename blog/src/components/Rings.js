@@ -15,10 +15,10 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 // 	},
 //   }))(Badge);
   function shoot() {
-	alert("Sepete Eklediniz...");
+	alert("Added to cart...");
   }
   const myelement = (
-	<button onClick={shoot}>SEPETE EKLE</button>
+	<button onClick={shoot}>ADD TO CART</button>
   );
 
 
@@ -49,7 +49,7 @@ const Rings = (props) => {
                 </div>
                 </div></div>
                 <div className='aaa'><img src={require("./yüzükimg/3y.jpg")}></img>
-				<a  id='l3'class="ui red ribbon label">İNDİRİM/1.450$</a>
+				<a  id='l3'class="ui red ribbon label">SALE/1.450$</a>
 				<div onClick={shoot} id='r3' className="ui vertical animated button" tabindex="0">
                 <div className="hidden content">Shop</div>
                 <div className="visible content">
@@ -66,7 +66,7 @@ const Rings = (props) => {
                 </div>
                 </div></div>
                 <div className='aaa'><img src={require("./yüzükimg/5y.jpg")}></img>
-				<a  id='l5'class="ui red ribbon label">İNDİRİM/1.450$</a>
+				<a  id='l5'class="ui red ribbon label">SALE/1.450$</a>
 				<div onClick={shoot} id='r5' className="ui vertical animated button" tabindex="0">
                 <div className="hidden content">Shop</div>
                 <div className="visible content">
@@ -80,7 +80,7 @@ const Rings = (props) => {
 					</StyledBadge>
 					</IconButton></div> */}
                      <div className='Al'><NavLink to="/uyelik" className="den">
-                <button className='btn red'>SİPARİŞİ TAMAMLA</button>
+                <button className='btn red'>COMPLETE THE ORDER</button>
                 </NavLink></div>
 			</div>
 		</div>
