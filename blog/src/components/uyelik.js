@@ -12,7 +12,7 @@ const uyelik = (props) => {
 	return (
 		<div>
 			<div className="container">
-				<h1 className="center">GİRİŞ YAPINIZ</h1>
+				<h1 className="center">LOGİN</h1>
                                 <form>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
@@ -28,10 +28,10 @@ const uyelik = (props) => {
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
                 <NavLink to="/deneme"className="den">
-                <button style={{left: 0}}type="submit" class="btn btn-primary">Giriş Yap</button></NavLink>
+                <button style={{left: 0}}type="submit" class="btn btn-primary">Sign in</button></NavLink>
                 <NavLink to="/deniz"className="den">
-                <button style={{margin:20}} type="submit" class="btn btn-primary">Üye Ol</button></NavLink>
-                <button type="submit" class="btn red">Üye Olmadan Devam Et</button>
+                <button style={{margin:20}} type="submit" class="btn btn-primary">Sign up</button></NavLink>
+                <button type="submit" class="btn red">Continue without sign in</button>
                 </form>                
                             
       
