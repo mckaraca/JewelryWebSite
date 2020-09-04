@@ -20,10 +20,10 @@ import {NavLink ,withRouter}  from 'react-router-dom';
 //   }))(Badge);
   
   function shoot() {
-	alert("Sepete Eklediniz...");
+	alert("Added to cart...");
   }
   const myelement = (
-	<button onClick={shoot}>SEPETE EKLE</button>
+	<button onClick={shoot}>ADD TO CART</button>
   );
 
 
@@ -75,7 +75,7 @@ const Necklaces = (props) => {
                     </div>
                 </div>
                 <div   className='nnn'><img src={require("./kolimg/5k.jpeg")}></img>
-                <a  id='lab'class="ui red ribbon label">Overview</a>
+                <a  id='lab'class="ui red ribbon label">SALE/150$</a>
                 <div onClick={shoot} id='d' class="ui vertical animated button" tabIndex="0">
                     <div class="hidden content">Shop</div>
                     <div class="visible content">
@@ -85,7 +85,7 @@ const Necklaces = (props) => {
                     </div>
                 </div>
                 <div className='Al'><NavLink to="/uyelik" className="den">
-                <button className='btn red'>SİPARİŞİ TAMAMLA</button>
+                <button className='btn red'>COMPLETE THE ORDER</button>
                 </NavLink></div>
                 {/* <div className='a'>
                     <IconButton aria-label="cart">
