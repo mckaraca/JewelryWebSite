@@ -8,10 +8,10 @@ import IconButton from '@material-ui/core/IconButton';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 function shoot() {
-	alert("Sepete Eklediniz...");
+	alert("Added to cart ...");
   }
   const myelement = (
-	<button onClick={shoot}>SEPETE EKLE</button>
+	<button onClick={shoot}>ADD TO CART</button>
   );
 
 // const StyledBadge = withStyles((theme) => ({
@@ -60,7 +60,7 @@ const Watches = (props) => {
                 </div>
                 </div></div>
                 <div className='sss'><img src={require("./images/4s.jpg")}></img>
-				<a   onClick={shoot} id='w4'class="ui red ribbon label">İNDİRİM/1.500$</a>
+				<a   onClick={shoot} id='w4'class="ui red ribbon label">SALE/1.500$</a>
 				<div  id='wat4' className="ui vertical animated button" tabindex="0">
                 <div  className="hidden content">Shop</div>
                 <div className="visible content">
@@ -84,7 +84,7 @@ const Watches = (props) => {
 					</IconButton>
 					</div> */}
                     <div className='Al'><NavLink to="/uyelik" className="den">
-                <button className='btn red'>SİPARİŞİ TAMAMLA</button>
+                <button className='btn red'>COMPLETE THE ORDER</button>
                 </NavLink></div>
 				
 			</div>
